@@ -17,7 +17,7 @@ const Home = () => {
 
           <p className="home__description">
             I'm an Indian based Web developer and Machine learning engineer focused on crafting clean &
-            user-friendly experiences, I am passionate aboute building excellent
+            user-friendly experiences. I am passionate about building excellent
             softwares and Machine Learning stuffs that improves the lives of
             those around me.
           </p>
