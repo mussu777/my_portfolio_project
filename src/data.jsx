@@ -11,9 +11,9 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.jpeg';
 import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
+import Work3 from './assets/project-3.png';
 import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
+import Work5 from './assets/project-5.png';
 import Work6 from './assets/project-6.jpg';
 
 import Theme1 from './assets/purple.png';
@@ -161,7 +161,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '2023 - PRESENT',
     title: 'Machine Learning <span> {AI} </span>',
-    desc: 'Done Machine Learing with an Internship in NIT MEGHALAYA ',
+    desc: 'Done Machine Learing with an Internship at NIT MEGHALAYA ',
   },
 
   {
@@ -170,7 +170,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '2023 - PRESENT',
     title: 'Leadership & Management <span> {CGEC} </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    desc: 'Learned the steps to lead and guide through various workshop in various colleges specially in my own college. ',
   },
 
   {
@@ -341,12 +341,12 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Tour App',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Plan trip',
       },
       {
         icon: <FiUser />,
@@ -356,12 +356,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Javascript, React JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.Google.com',
+        desc: 'https://plan-with-lovy.vercel.app/',
       },
     ],
   },
@@ -397,7 +397,7 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Course Page',
     details: [
       {
         title: 'Project : ',
@@ -405,15 +405,15 @@ export const portfolio = [
       },
       {
         title: 'Client : ',
-        desc: 'None',
+        desc: 'Self',
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'Javascript, React JS',
       },
       {
         title: 'Preview : ',
-        desc: 'www.Google.com',
+        desc: 'https://top-course-taupe.vercel.app/',
       },
     ],
   },
@@ -426,12 +426,12 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Prediction',
+        desc: 'Air Quality Forecasting Using AI',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'None',
+        desc: 'Institute',
       },
       {
         icon: <FaCode />,
@@ -441,7 +441,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.Google.com',
+        desc: 'https://github.com/mussu777/ML-AQI-Project',
       },
     ],
   },
