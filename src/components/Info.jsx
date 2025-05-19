@@ -4,13 +4,21 @@ import {personalInfo} from '../data';
 const Info = () => {
   return (
     <>
-    {personalInfo.map(({title, description }, index) => {
+    {personalInfo.map(({title, description, url }, index) => {
       return (
-        <li className='info__item' key={index}>
-          <span className='info__title'>{title}</span>
-          <span className='info__description'>{description}</span>
+        <li className="info__item" key={index}>
+          <span className="info__title">
+            {url ? (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {title}
+              </a>
+            ) : (
+              title
+            )}
+          </span>
+          <span className="info__description">{description}</span>
         </li>
-      )
+      );
     })}
     </>
   )

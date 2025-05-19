@@ -12,11 +12,11 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Mustak Ansary.</span> MERN stack Web Developer & ML Engineer
+            <span>I'm Mustak Ansary.</span> Web/App Developer & ML Engineer.
           </h1>
 
           <p className="home__description">
-            I'm an Indian based Web developer and Machine learning engineer focused on crafting clean &
+            I'm an Indian based Web/App developer and Machine learning engineer focused on crafting clean &
             user-friendly experiences. I am passionate about building excellent
             softwares and Machine Learning stuffs that improves the lives of
             those around me.
