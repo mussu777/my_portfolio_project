@@ -12,7 +12,7 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import Work1 from "./assets/project-1.jpeg";
 import Work2 from "./assets/project-2.jpg";
 import Work3 from "./assets/project-3.png";
-import Work4 from "./assets/project-4.jpeg";
+import Work4 from "./assets/project-4.png";
 import Work5 from "./assets/project-5.png";
 import Work6 from "./assets/project-6.jpg";
 import img1 from "./assets/img1.png";
@@ -361,6 +361,33 @@ export const skills = [
 
 export const portfolio = [
   {
+    id: 4,
+    img: Work4,
+    title: "Security Project",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Soc & SIEM",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "None",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "Python and Linux",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://github.com/mussu777/Security-Project-1.git",
+      },
+    ],
+  },
+  {
     id: 1,
     img: img1,
     title: "Web Development",
@@ -440,34 +467,6 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "https://plan-with-lovy.vercel.app/",
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    img: Work4,
-    title: "Video Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "None",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.Google.com",
       },
     ],
   },
