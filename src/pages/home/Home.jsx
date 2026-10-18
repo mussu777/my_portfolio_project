@@ -12,14 +12,11 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Mustak Ansary.</span> Web/App Developer & ML Engineer.
+            <span>I'm Mustak Ansary.</span>Building Digital Experiences. Exploring AI. Securing the Future..
           </h1>
 
           <p className="home__description">
-            I'm an Indian based Web/App developer and Machine learning engineer focused on crafting clean &
-            user-friendly experiences. I am passionate about building excellent
-            softwares and Machine Learning stuffs that improves the lives of
-            those around me.
+            Passionate about Cybersecurity and Cloud Security, focused on securing systems, networks, and cloud environments. With a background in Web & App Development, I aim to build secure and reliable digital solutions.
           </p>
 
           <Link to='about' className="button">
