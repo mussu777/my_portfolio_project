@@ -16,12 +16,16 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-            Passionate about Cybersecurity and Cloud Security, focused on securing systems, networks, and cloud environments. With a background in Web & App Development, building digital experiences and defending the digital world.
+            Passionate about Cybersecurity and Cloud Security, focused on
+            securing systems, networks, and cloud environments. With a
+            background in Web & App Development, building digital experiences
+            and defending the digital world.
+          </p>
 
-          <Link to='about' className="button">
-            More About Me{' '}
+          <Link to="about" className="button">
+            More About Me{" "}
             <span className="button__icon">
-                <FaArrowRight/>
+              <FaArrowRight />
             </span>
           </Link>
         </div>
