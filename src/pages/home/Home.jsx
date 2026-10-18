@@ -16,8 +16,7 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-            Passionate about Cybersecurity and Cloud Security, focused on securing systems, networks, and cloud environments. With a background in Web & App Development, I aim to build secure and reliable digital solutions.
-          </p>
+            Passionate about Cybersecurity and Cloud Security, focused on securing systems, networks, and cloud environments. With a background in Web & App Development, building digital experiences and defending the digital world.
 
           <Link to='about' className="button">
             More About Me{' '}
