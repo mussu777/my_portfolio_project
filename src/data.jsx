@@ -363,7 +363,7 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: "Security Project",
+    title: "SOC & SIEM",
     details: [
       {
         icon: <FiFileText />,
